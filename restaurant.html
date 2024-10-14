@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ELdominoz</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Restaurant Eldoinozm</h2>
+            <p>Enjoy the tastiest meals.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>bacon</h3>
+                    <p>Enjoy a perfect delicacy.</p>
+                    <p>ksh370</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Fried chips</h3>
+                    <p>Crisppiest fries on the planet.</p>
+                    <p>ksh 280</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Chapati</h3>
+                    <p>Yummy chapata from the best chefs.</p>
+                    <p>ksh300</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Phone:0723187678</p>
+            <p>Email: info@eldominosrestaurant.com</p>
+            <p>Address: 433 kijabe Street, Uptown</p>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form id="reservationForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
